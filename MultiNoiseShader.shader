@@ -65,7 +65,6 @@ Shader "Unlit/MultiNoiseShader"
 
 			fixed4 frag (v2f i) : SV_Target
 			{
-				float2 uv = i.uv + float2(_Time.y, 0.0 * _Time.y);
 				fixed4 col = fixed4(0,0,0,1);
 				col.xyz = (Noise(i.uv * 4.0  + _Time.y * 0.05))
 					    + (Noise(i.uv * 8.0  + _Time.y * 0.20)) * 0.5
