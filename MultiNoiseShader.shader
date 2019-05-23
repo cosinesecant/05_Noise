@@ -69,7 +69,7 @@ Shader "Unlit/MultiNoiseShader"
 				col.xyz = (Noise(i.uv * 4.0  + _Time.y * 0.05))
 					    + (Noise(i.uv * 8.0  + _Time.y * 0.20)) * 0.5
 						+ (Noise(i.uv * 16.0 + _Time.y * 0.80)) * 0.25;
-				return sin(100 * col / (1.0 + 0.5 + 0.25)) * 0.5 + 0.5;
+				return col / (1.0 + 0.5 + 0.25) * 0.5 + 0.5;
 			}
 			ENDCG
 		}
