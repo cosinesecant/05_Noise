@@ -1,3 +1,3 @@
-# Render Texture
+# Noise
 
 ![画像](result.png)
