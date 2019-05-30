@@ -2,9 +2,6 @@ Shader "UnityStudy/TexCoordShader"
 {
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
-        LOD 100
-
         Lighting Off
 
         Pass
