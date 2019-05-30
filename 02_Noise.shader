@@ -1,4 +1,4 @@
-Shader "Unlit/Noise"
+Shader "UnityStudy/02_Noise"
 {
 	Properties
 	{
