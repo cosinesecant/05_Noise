@@ -1,4 +1,4 @@
-Shader "Unlit/NoiseShader"
+Shader "Unlit/Noise"
 {
 	Properties
 	{
